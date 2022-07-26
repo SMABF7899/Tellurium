@@ -78,10 +78,12 @@ input:invalid + .alert {
     font-size: 20px;
     outline: none;
     justify-content: center;
+    transition: 0.3s;
 }
 
 .App-checkbox {
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .App-button {
@@ -103,9 +105,18 @@ input:invalid + .alert {
     transition: 0.3s;
 }
 
-.App-button:hover {
-    box-shadow:
-    0 0 30px #282c34,
+.App-button:hover{
+    box-shadow: 0 0 30px #282c34,
+    0 0 30px #282c34;
+}
+
+.App-input:hover{
+    box-shadow: 0 0 30px #282c34,
+    0 0 30px #282c34;
+}
+
+.App-checkbox:hover{
+    box-shadow: 0 0 30px #282c34,
     0 0 30px #282c34;
 }
 
