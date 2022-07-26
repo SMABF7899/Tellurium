@@ -100,6 +100,13 @@ input:invalid + .alert {
     margin-top: 10px;
     font-size: 20px;
     color: white;
+    transition: 0.3s;
+}
+
+.App-button:hover {
+    box-shadow:
+    0 0 30px #282c34,
+    0 0 30px #282c34;
 }
 
 label {
