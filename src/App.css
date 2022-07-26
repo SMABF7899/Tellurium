@@ -2,6 +2,40 @@
   text-align: center;
 }
 
+.App-input {
+  max-width: 1000px;
+  border-radius: 12px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.App-button {
+  max-width: 1000px;
+  border-radius: 12px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+label {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  font-size: 20px;
+}
+
+a {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  font-size: 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
