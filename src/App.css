@@ -2,8 +2,66 @@
   text-align: center;
 }
 
-.App-input {
+h1 {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+form[id="login"] {
+  width: 500px;
+  padding: 20px;
+  background-color: #ffffff29;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input[type=text]{
+  align-items: center;
+  border-radius: 12px;
   max-width: 1000px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+  outline: none;
+  justify-content: center;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0.2rem #719de640;
+  border: 1px solid #5d93e9e4;
+}
+
+input:invalid{
+  animation: shake 300ms;
+  box-shadow: 0 0 0 0.2rem #719de640;
+  border: 1px solid #e83b3be4;
+}
+
+.alert{
+  display: none;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+input:invalid + .alert{
+  display: block;
+  margin: 5px 0;
+  font-size: 20px;
+  color: red;
+}
+
+@keyframes shake {
+  25% { transform: translateX(4px); }
+  50% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+.App-input {
+  align-items: center;
+  width: 90%;
   border-radius: 12px;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
@@ -11,17 +69,30 @@
   padding: 10px;
   margin: 5px;
   font-size: 20px;
+  outline: none;
+  justify-content: center;
+}
+
+.App-checkbox {
+  cursor: pointer;
 }
 
 .App-button {
-  max-width: 1000px;
+  writing-mode: horizontal-tb !important;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 90%;
   border-radius: 12px;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
   text-align: center;
   padding: 10px;
-  margin: 5px;
+  background: #282c34;
+  cursor: pointer;
+  margin-top: 10px;
   font-size: 20px;
+  color: white;
 }
 
 label {
@@ -37,7 +108,7 @@ a {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 35vmin;
   pointer-events: none;
 }
 
@@ -48,18 +119,18 @@ a {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://wallpaperaccess.com/full/718097.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #282c34;
 }
 
 @keyframes App-logo-spin {
