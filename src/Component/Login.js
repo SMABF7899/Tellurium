@@ -24,7 +24,7 @@ function Login() {
             <header className={"App-header"}>
                 <img src={logo} className={"App-logo"} alt={"logo"}/>
                 <form id={"login"}>
-                    <h1>Titanium</h1>
+                    <h1>Tellurium</h1>
                     <p>
                         <code>Login to the Dashboard</code>
                     </p>
